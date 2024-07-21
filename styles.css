@@ -3,3 +3,16 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+.main {
+	width: 100vw;
+	background-color: white;
+	display: flex;
+}
+.left-background {
+	width: 50%;
+	background-color: aqua;
+}
+.rigth-background {
+	width: 50%;
+	background-color: black;
+}
