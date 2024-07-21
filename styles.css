@@ -2,7 +2,9 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: "Outfit", sans-serif;
 }
+
 .main {
 	width: 100vw;
 	background-color: white;
@@ -15,4 +17,31 @@
 .rigth-background {
 	width: 50%;
 	background-color: black;
+}
+
+.first-section {
+	width: 100%;
+	background-color: red;
+}
+.navbar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 60px;
+	position: fixed;
+	top: 0;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: 500;
+	color: white;
+}
+
+.navbar img {
+	width: 50px;
+}
+.first-main {
+	padding: 50px;
 }
